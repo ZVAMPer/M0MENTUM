@@ -21,6 +21,22 @@ Label {
     -unity-font-definition: url("project://database/Assets/UIToolkit/SessionInfo/Fonts/IBMPlexMono-Regular-SDF.asset?fileID=11400000&guid=ea4527b60c07943b89229004f9413b24&type=2#IBMPlexMono-Regular-SDF");
 }
 
+#KnockbackMeter {
+    width: 220px;
+    height: 64px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: var(--color-orange);
+}
+
+#KnockbackValue {
+    font-size: 48px;
+    -unity-text-align: middle-center;
+    color: var(--color-font-base);
+}
+
 .session-info-container {
     align-self: stretch;
     width: auto;
